@@ -1,14 +1,19 @@
+```
 ███████╗ ██████╗  ██████╗  ██╗
 ██╔════╝██╔═══██╗██╔═══██╗███║
 ███████╗██║   ██║██║   ██║╚██║   Hotspot TLS Fingerprint System
 ╚════██║██║   ██║██║   ██║ ██║   Device DNA • TLS Capture • CHAP Auth
 ███████║╚██████╔╝╚██████╔╝ ██║   Cloudflare Worker API • Anti-Bypass
 ╚══════╝ ╚═════╝  ╚═════╝  ╚═╝
+```
+
 
 1. Upload Portal Files
 Letak semua file ke folder:
-...bash
-   /hotspot
+```
+/hotspot
+
+```
 
 
 
