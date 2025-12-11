@@ -12,27 +12,26 @@
 Letak semua file ke folder:
 ```
 /hotspot
-
 ```
-
-
-
 
 ✅ 1. Allow Cloudflare Workers dalam Walled Garden (WAJIB)
 Cloudflare Workers biasanya berada bawah IP range:
-...
+```
 104.16.0.0/12
 172.64.0.0/13
-...
+```
 
 Masukkan dalam walled-garden IP Mikrotik:
+```
 /ip hotspot walled-garden ip
 add action=allow dst-address=104.16.0.0/12
 add action=allow dst-address=172.64.0.0/13
-
+```
 ⚠️ Kalau error syntax error, pastikan command tepat begini:
+```
 /ip hotspot walled-garden ip add dst-address=104.16.0.0/12 action=allow
 /ip hotspot walled-garden ip add dst-address=172.64.0.0/13 action=allow
+```
 
 ✅ 2. Allow specific domain Workers.dev (WAJIB)
 
